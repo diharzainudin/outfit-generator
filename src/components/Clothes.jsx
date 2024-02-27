@@ -5,13 +5,15 @@ const Clothes = (props) => {
   return (
     <div>
       <li classname="clothes" id={props.key}>
-        <h2>Brand: {props.brand}</h2>
-        <h3>
+        <h3>Brand: {props.brand}</h3>
+        <p>
           <i>{props.title}</i>
-        </h3>
+        </p>
         <img src={props.image} />
-        <h3>Price: {props.price}</h3>
-        <Button link={props.link} />
+        <h3 id="price-style">{props.price} </h3>
+        <h3 id="buy-button">
+          <Button link={props.link} />
+        </h3>
       </li>
     </div>
   )
