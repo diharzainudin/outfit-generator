@@ -36,7 +36,6 @@ h3 {
 
 img {
   width: 400px;
-  margin-bottom: 20px;
 }
 
 #price {
@@ -90,11 +89,6 @@ img {
 }
 
 .footerbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0px;
   height: 30rem;
   background-color: #e9d2c0;
   font-size: 20px;
@@ -102,5 +96,24 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.footer-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.gallery img {
+  align-content: stretch;
+  object-fit: cover;
+  width: 270px;
+  height: 270px;
 }
