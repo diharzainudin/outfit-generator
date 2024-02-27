@@ -33,8 +33,7 @@ img {
 }
 
 #price-style {
-  background-color: black;
-  color: white;
+  background-color: #e9d2c0;
   max-width: 100px;
   padding: 10px;
   margin-right: 15px;
@@ -44,10 +43,25 @@ img {
 
 #buy-button {
   text-transform: capitalize;
-  background-color: black;
+  background-color: #e9d2c0;
   color: white;
   padding: 10px;
   max-width: 100px;
   display: inline-flex;
   font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  height: 50px;
+  background-color: #e9d2c0;
+  font-size: 20px;
+  font-family: 'Cormorant', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }

@@ -1,10 +1,12 @@
 import './App.css'
 import Clothes from './components/Clothes'
+import Navbar from './components/Navbar'
 import data from './clothes.json'
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <header>
         <h1>Dress Me</h1>
       </header>
