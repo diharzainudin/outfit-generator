@@ -10,7 +10,7 @@ const Clothes = (props) => {
           <i>{props.title}</i>
         </p>
         <img src={props.image} />
-        <h3 id="price-style">{props.price} </h3>
+        <h3 id="price">{props.price} </h3>
         <h3 id="buy-button">
           <Button link={props.link} />
         </h3>
