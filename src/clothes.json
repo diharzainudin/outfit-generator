@@ -1,0 +1,900 @@
+{
+  "clothes": [
+    {
+      "id": "1",
+      "category": "top",
+      "title": "Embellished crepe bustier top",
+      "owned": false,
+      "price": "$1,226",
+      "color": "ivory",
+      "brand": {
+        "name": "Clio Peppiatt",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/clio-peppiatt/clothing/tanks-and-camis/embellished-crepe-bustier-top/1647597304983285"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 5,
+          "type": "eclectic"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597304983285/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "2",
+      "category": "top",
+      "title": "Pouf cropped tie-front linen-blend gauze top",
+      "owned": false,
+      "price": "$435",
+      "color": "purple",
+      "brand": {
+        "name": "Lisa Marie Fernandez",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/lisa-marie-fernandez/clothing/blouses/plus-net-sustain-pouf-cropped-tie-front-linen-blend-gauze-top/1647597326758117"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326758117/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "3",
+      "category": "top",
+      "title": "Cropped gathered floral-print duchesse-satin blouse",
+      "owned": false,
+      "price": "$145",
+      "color": "black",
+      "brand": {
+        "name": "Farm Rio",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/farm-rio/clothing/blouses/cropped-gathered-floral-print-duchesse-satin-blouse/1647597326787754"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 5,
+          "type": "bohemian"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326787754/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "4",
+      "category": "top",
+      "title": "Ruddy tie-front sequined tulle top",
+      "owned": false,
+      "price": "$405",
+      "color": "silver",
+      "brand": {
+        "name": "In The Mood For Love",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/in-the-mood-for-love/clothing/blouses/ruddy-tie-front-sequined-tulle-top/1647597331533724"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597331533724/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "5",
+      "category": "top",
+      "title": "Paloma off-the-shoulder satin top",
+      "owned": false,
+      "price": "$425",
+      "color": "emerald",
+      "brand": {
+        "name": "Carolina Costas",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/caroline-constas/clothing/blouses/paloma-off-the-shoulder-satin-top/1647597318086702"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597318086702/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "6",
+      "category": "top",
+      "title": "$Anagram cropped embroidered ribbed cotton T-shirt",
+      "owned": true,
+      "price": "$650",
+      "color": "white",
+      "brand": {
+        "name": "Lowee",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/loewe/clothing/t-shirts/anagram-cropped-embroidered-ribbed-cotton-t-shirt/1647597303708890"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "streetwear"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597303708890/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "7",
+      "category": "top",
+      "title": "Lago cotton-poplin shirt",
+      "owned": true,
+      "price": "$790",
+      "color": "white",
+      "brand": {
+        "name": "Khaite",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/khaite/clothing/shirts/lago-cotton-poplin-shirt/1647597315281973"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597315281973/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "8",
+      "category": "top",
+      "title": "Cropped stretch-lace top",
+      "owned": true,
+      "price": "$396",
+      "color": "black",
+      "brand": {
+        "name": "Paco Rabanne",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/paco-rabanne/clothing/blouses/cropped-stretch-lace-top/1647597326691692"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 4,
+          "type": "vintage"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326691692/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "9",
+      "category": "top",
+      "title": "One-shoulder draped stretch-crepe top",
+      "owned": true,
+      "price": "$790",
+      "color": "white",
+      "brand": {
+        "name": "Proenza Schouler",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/proenza-schouler/clothing/blouses/one-shoulder-draped-stretch-crepe-top/1647597326673656"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326673656/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "10",
+      "category": "top",
+      "title": "Eliza strapless ruffled stretch-knit top",
+      "owned": true,
+      "price": "$330",
+      "color": "black",
+      "brand": {
+        "name": "A.L.C",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/alc/clothing/blouses/eliza-strapless-ruffled-stretch-knit-top/1647597326203988"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326203988/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "11",
+      "category": "top",
+      "title": "Edwige gathered silk-satin halterneck top",
+      "owned": false,
+      "price": "$325",
+      "color": "gold",
+      "brand": {
+        "name": "Nili Lotan",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/nili-lotan/clothing/blouses/edwige-gathered-silk-satin-halterneck-top/1647597330432874"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597330432874/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "12",
+      "category": "top",
+      "title": "Belted wrap-effect crepe top",
+      "owned": true,
+      "price": "$895",
+      "color": "black",
+      "brand": {
+        "name": "Co",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/co/clothing/blouses/belted-wrap-effect-crepe-top/1647597324593930"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/en-us/shop/product/co/clothing/blouses/belted-wrap-effect-crepe-top/1647597324593930"
+    },
+    {
+      "id": "13",
+      "category": "top",
+      "title": "Hailey Bieber cropped cotton-blend top",
+      "owned": true,
+      "price": "$200",
+      "color": "black",
+      "brand": {
+        "name": "Wardrobe NYC",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/wardrobenyc/clothing/tunics/plus-hailey-bieber-cropped-cotton-blend-top/34344356237060018"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "streetwear"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/34344356237060018/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "14",
+      "category": "top",
+      "title": "Essentials Ophelia oversized wool and cashmere-blend sweater",
+      "owned": false,
+      "price": "$1,550",
+      "color": "",
+      "brand": {
+        "name": "The Row",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/the-row/clothing/round-neck/essentials-ophelia-oversized-wool-and-cashmere-blend-sweater/1647597283612119"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "winter",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597283612119/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "15",
+      "category": "top",
+      "title": "Striped wool-blend turtleneck sweater",
+      "owned": false,
+      "price": "$570",
+      "color": "black",
+      "brand": {
+        "name": "Toteme",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/toteme/clothing/turtleneck/striped-wool-blend-turtleneck-sweater/1647597319440108"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "winter",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597319440108/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "16",
+      "category": "top",
+      "title": "Samantha off-the-shoulder gathered gauze bustier top",
+      "owned": true,
+      "price": "$458",
+      "color": "black",
+      "brand": {
+        "name": "Cult Gaia",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/cult-gaia/clothing/cropped/samantha-off-the-shoulder-gathered-gauze-bustier-top/1647597326883048"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 2,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326883048/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "17",
+      "category": "jeans",
+      "title": "Criss Cross frayed high-rise straight-leg organic jeans",
+      "owned": false,
+      "price": "$220",
+      "color": "blue",
+      "brand": {
+        "name": "Agolde",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/agolde/clothing/straight-leg/criss-cross-frayed-high-rise-straight-leg-organic-jeans/33258524072112229"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/33258524072112229/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "18",
+      "category": "jeans",
+      "title": "Chain-embellished mid-rise straight-leg jeans",
+      "owned": false,
+      "price": "$1,450",
+      "color": "blue",
+      "brand": {
+        "name": "Loewe",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/loewe/clothing/straight-leg/chain-embellished-mid-rise-straight-leg-jeans/1647597325144413"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 2,
+          "type": "streetwear"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597325144413/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "19",
+      "category": "jeans",
+      "title": "The Hustler Roller Sneak high-rise wide-leg jeans",
+      "owned": false,
+      "price": "$270",
+      "color": "blue",
+      "brand": {
+        "name": "Mother",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/mother/clothing/wide-leg/plus-net-sustain-the-hustler-roller-sneak-high-rise-wide-leg-jeans/1647597326010424"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 4,
+          "type": "vintage"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326010424/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "20",
+      "category": "pants",
+      "title": "Toggle Parachute cotton-blend gabardine straight-leg cargo pants",
+      "owned": false,
+      "price": "$288",
+      "color": "ivory",
+      "brand": {
+        "name": "Dion Lee",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/dion-lee/clothing/track-pants/toggle-parachute-cotton-blend-gabardine-straight-leg-cargo-pants/1647597303326107"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 2,
+          "type": "streetwear"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597303326107/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "21",
+      "category": "pants",
+      "title": "Pleated wool-satin wide-leg cargo pants",
+      "owned": false,
+      "price": "$598",
+      "color": "black",
+      "brand": {
+        "name": "R13",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/r13/clothing/wide-leg/pleated-wool-satin-wide-leg-cargo-pants/1647597316524518"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 2,
+          "type": "streetwear"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597316524518/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "22",
+      "category": "pants",
+      "title": "Essentials Igor crepe straight-leg pants",
+      "owned": true,
+      "price": "$1,390",
+      "color": "black",
+      "brand": {
+        "name": "The Row",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/the-row/clothing/straight-leg/essentials-igor-crepe-straight-leg-pants/1647597283612103"
+      },
+      "occasion": "workwear",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597283612103/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "23",
+      "category": "skirt",
+      "title": "Ivring pleated floral-jacquard midi skirt",
+      "owned": false,
+      "price": "$650",
+      "color": "Magenta",
+      "brand": {
+        "name": "Destree",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/destree/clothing/maxi/ivring-pleated-floral-jacquard-midi-skirt/1647597329216163"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597329216163/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "24",
+      "category": "skirt",
+      "title": "Cunningham tiered embroidered pointelle-trimmed cotton-blend gauze maxi skirt",
+      "owned": false,
+      "price": "$595",
+      "color": "White",
+      "brand": {
+        "name": "LoveShackFancy",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/loveshackfancy/clothing/maxi/cunningham-tiered-embroidered-pointelle-trimmed-cotton-blend-gauze-maxi-skirt/1647597326609144"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 4,
+          "type": "vintage"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326609144/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "25",
+      "category": "skirt",
+      "title": "Bellagio gathered taffeta maxi skirt",
+      "owned": false,
+      "price": "$895",
+      "color": "lilac",
+      "brand": {
+        "name": "Staud",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/staud/clothing/maxi/bellagio-gathered-taffeta-maxi-skirt/1647597333492314"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597333492314/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "26",
+      "category": "skirt",
+      "title": "Bart bow-detailed and taffeta maxi skirt",
+      "owned": true,
+      "price": "$610",
+      "color": "black",
+      "brand": {
+        "name": "Bernadette",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/bernadette/clothing/maxi/bart-bow-detailed-and-taffeta-maxi-skirt/1647597315917352"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 3,
+          "type": "romantic"
+        },
+        {
+          "theme": 4,
+          "type": "vintage"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597315917352/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "27",
+      "category": "skirt",
+      "title": "Fea satin maxi skirt",
+      "owned": true,
+      "price": "$595",
+      "color": "bronze",
+      "brand": {
+        "name": "Nanushka",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/nanushka/clothing/maxi/plus-net-sustain-fea-satin-maxi-skirt/1647597326134304"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 6,
+          "type": "bohemian"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326134304/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "28",
+      "category": "skirt",
+      "title": "Maguire woven maxi skirt",
+      "owned": false,
+      "price": "$2,890",
+      "color": "red",
+      "brand": {
+        "name": "Ralph Lauren",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/ralph-lauren-collection/clothing/maxi/maguire-woven-maxi-skirt/1647597303688973"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 4,
+          "type": "vintage"
+        },
+        {
+          "theme": 5,
+          "type": "eclectic"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597303688973/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "29",
+      "category": "skirt",
+      "title": "Silk-satin maxi skirt",
+      "owned": true,
+      "price": "$3,400",
+      "color": "black",
+      "brand": {
+        "name": "Saint Laurent",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/saint-laurent/clothing/maxi/silk-satin-maxi-skirt/1647597332688573"
+      },
+      "occasion": "formal",
+      "style": [
+        {
+          "theme": 1,
+          "type": "minimalist"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "winter"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597332688573/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "30",
+      "category": "skirt",
+      "title": "Sumi floral-print fil coupé chiffon maxi skirt",
+      "owned": false,
+      "price": "$495",
+      "color": "pink",
+      "brand": {
+        "name": "LoveShackFancy",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/loveshackfancy/clothing/maxi/sumi-floral-print-fil-coupe-chiffon-maxi-skirt/1647597326794520"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 1,
+          "type": "vintage"
+        },
+        {
+          "theme": 3,
+          "type": "romantic"
+        }
+      ],
+      "seasons": {
+        "first": "summer",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326794520/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "31",
+      "category": "skirt",
+      "title": "Striped metallic crochet-knit maxi skirt",
+      "owned": false,
+      "price": "$1,400",
+      "color": "pink",
+      "brand": {
+        "name": "Missoni",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/missoni/clothing/maxi/striped-metallic-crochet-knit-maxi-skirt/1647597326451372"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 4,
+          "type": "vintage"
+        }
+      ],
+      "seasons": {
+        "first": "spring",
+        "second": "autumn"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597326451372/in/w920_a3-4_q60.jpg"
+    },
+    {
+      "id": "32",
+      "category": "skirt",
+      "title": "Leif denim midi skirt",
+      "owned": true,
+      "price": "$240",
+      "color": "blue",
+      "brand": {
+        "name": "Agolde",
+        "link": "https://www.net-a-porter.com/en-us/shop/product/agolde/clothing/maxi/leif-denim-midi-skirt/1647597311551146"
+      },
+      "occasion": "casual",
+      "style": [
+        {
+          "theme": 6,
+          "type": "bohemian"
+        },
+        {
+          "theme": 1,
+          "type": "minimalist"
+        }
+      ],
+      "seasons": {
+        "first": "autumn",
+        "second": "spring"
+      },
+      "image": "https://www.net-a-porter.com/variants/images/1647597311551146/in/w920_a3-4_q60.jpg"
+    }
+  ]
+}
