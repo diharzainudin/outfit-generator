@@ -11,10 +11,10 @@ const Navbar = (props) => {
           <NavLink to="/mycloset">My Closet</NavLink>
         </li>
         <li>
-          <a href="/wishlist.html">Wishlist</a>
+          <NavLink to="/wishlist">Wishlist</NavLink>
         </li>
         <li>
-          <a href="/styleme.html">Style Me</a>
+          <NavLink to="/styleme">Style Me</NavLink>
         </li>
       </ul>
     </nav>
