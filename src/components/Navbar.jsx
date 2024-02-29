@@ -1,12 +1,14 @@
+import { NavLink } from 'react-router-dom'
+
 const Navbar = (props) => {
   return (
     <nav>
       <ul class="navbar">
         <li>
-          <a href="/index.html">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/mycloset.html">My Closet</a>
+          <NavLink to="/mycloset">My Closet</NavLink>
         </li>
         <li>
           <a href="/wishlist.html">Wishlist</a>

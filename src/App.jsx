@@ -1,29 +1,23 @@
 import './App.css'
 import data from './clothes.json'
-import Clothes from './components/Clothes'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Home from './components/Home'
+import MyCloset from './components/MyCloset'
+// import Wishlist from './components/Wishlist'
+// import StyleMe from './components/StyleMe'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <header>
-        <h1>Dress Me</h1>
-      </header>
-      <main>
-        {data.clothes.map((clothes) => (
-          <Clothes
-            key={clothes.id}
-            category={clothes.category}
-            price={clothes.price}
-            brand={clothes.brand.name}
-            title={clothes.title}
-            link={clothes.brand.link}
-            image={clothes.image}
-          />
-        ))}
-      </main>
+      <Routes>
+        <Route path="/" element={<Home data={data} />} />
+        <Route path="/mycloset" element={<MyCloset data={data} />} />
+        {/* <Route path="/wishlist" element={<Wishlist />} /> */}
+        {/* <Route path="/styleme" element={<StyleMe />} /> */}
+      </Routes>
       <Footer />
     </div>
   )

@@ -15,9 +15,9 @@ const Clothes = (props) => {
         <h3 id="buy-button">
           <Button link={props.link} />
         </h3>
-        <h3>
-          <HeartButton />
-        </h3>
+        <p>
+          <HeartButton /> Add to wishlist
+        </p>
       </li>
     </div>
   )

@@ -1,9 +1,18 @@
-import { CiHeart } from 'react-icons/ci'
+import { FaHeart } from 'react-icons/fa'
+import React, { useState } from 'react'
 
 const HeartButton = () => {
+  const [liked, setLiked] = useState(false)
+  const handleClick = () => {
+    setLiked(!liked)
+  }
   return (
     <div>
-      <CiHeart size="50" />
+      <FaHeart
+        size="30"
+        onClick={handleClick}
+        style={{ color: liked ? 'black' : '#e9d2c0' }}
+      />
     </div>
   )
 }

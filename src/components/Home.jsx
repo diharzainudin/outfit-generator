@@ -1,10 +1,9 @@
 import Clothes from './Clothes'
 
-const MyCloset = (props) => {
+const Home = (props) => {
   return (
     <main>
-      <h2>My Closet</h2>
-      {props.data.clothes.filter.map.((clothes) => (
+      {props.data.clothes.map((clothes) => (
         <Clothes
           key={clothes.id}
           category={clothes.category}
@@ -19,4 +18,4 @@ const MyCloset = (props) => {
   )
 }
 
-export default MyCloset
+export default Home
