@@ -3,24 +3,16 @@ const Navbar = (props) => {
     <nav>
       <ul class="navbar">
         <li>
-          <a href="/index.html" target="_blank">
-            Home
-          </a>
+          <a href="/index.html">Home</a>
         </li>
         <li>
-          <a href="/mycloset.html" target="_blank">
-            My Closet
-          </a>
+          <a href="/mycloset.html">My Closet</a>
         </li>
         <li>
-          <a href="/wishlist.html" target="_blank">
-            Wishlist
-          </a>
+          <a href="/wishlist.html">Wishlist</a>
         </li>
         <li>
-          <a href="/styleme.html" target="_blank">
-            Style Me
-          </a>
+          <a href="/styleme.html">Style Me</a>
         </li>
       </ul>
     </nav>
