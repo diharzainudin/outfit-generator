@@ -110,8 +110,24 @@ img {
   cursor: pointer;
 }
 
+/*this styles the input container*/
 .login-container {
   float: right;
+}
+
+/* Style the input field inside the navbar */
+.navbar input[type='text'] {
+  padding: 5px;
+  font-family: 'Cormorant', serif;
+  font-size: 16px;
+  border: none;
+  width: 150px;
+}
+
+/* Style the button inside the input container */
+.navbar .login-container button {
+  float: right;
+  padding: 6px;
 }
 
 .footerbar {
