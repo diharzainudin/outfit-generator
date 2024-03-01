@@ -53,6 +53,19 @@ h4 {
 img {
   width: 400px;
   max-width: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.img-text {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+}
+
+.clothes-container:hover .clothes-img {
+  opacity: 0.5;
 }
 
 #price {
@@ -144,6 +157,10 @@ img {
   cursor: pointer;
 }
 
+.navbar .login-container button:hover {
+  background: white;
+}
+
 .footerbar {
   /* position: absolute; */
   position: relative;
@@ -174,9 +191,14 @@ img {
   gap: 40px;
 }
 
-.gallery img {
-  align-content: stretch;
+.carousel .gallery img {
+  align-content: center;
   object-fit: cover;
   width: 270px;
   height: 270px;
+}
+
+.footerbar img {
+  height: 100%;
+  width: 100;
 }
