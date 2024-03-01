@@ -3,6 +3,8 @@
 body {
   margin: 0;
   text-align: center;
+  width: 100%;
+  /* background-color: yellow; */
 }
 
 /*this removes the bullet points for all lists on all pages*/
@@ -21,6 +23,8 @@ a {
   grid-template-columns: 3fr 3fr 3fr 3fr;
   margin: 30px;
   row-gap: 30px;
+  max-width: 100%;
+  /* background-color: pink; */
 }
 
 .closetpage {
@@ -48,6 +52,7 @@ h4 {
 
 img {
   width: 400px;
+  max-width: 100%;
 }
 
 #price {
