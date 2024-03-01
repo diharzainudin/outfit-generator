@@ -26,7 +26,7 @@ const Footer = (props) => {
       </div>
 
       <div class="footer-icons">
-        <ul class="footer-wrapper">
+        <ul class="footer-wrap">
           <li>
             <a
               href="https://www.facebook.com/Vogue"

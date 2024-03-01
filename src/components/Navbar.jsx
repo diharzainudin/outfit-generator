@@ -17,6 +17,13 @@ const Navbar = (props) => {
           <NavLink to="/styleme">Style Me</NavLink>
         </li>
       </ul>
+      <div class="login-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Username" name="username"></input>
+          <input type="text" placeholder="Password" name="psw"></input>
+          <button type="submit">Login</button>
+        </form>
+      </div>
     </nav>
   )
 }

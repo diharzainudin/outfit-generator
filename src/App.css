@@ -16,11 +16,16 @@ a {
   color: black;
 }
 
-main {
+.homepage {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   margin: 30px;
   row-gap: 30px;
+}
+
+.closetpage {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
 }
 
 h1 {
@@ -32,6 +37,13 @@ h3 {
   text-transform: uppercase;
   font-family: 'Cormorant', serif;
   letter-spacing: 1.5px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: 'Cormorant', serif;
+  letter-spacing: 1px;
+  color: #e9d2c0;
 }
 
 img {
@@ -89,7 +101,10 @@ img {
 }
 
 .footerbar {
+  /* position: absolute; */
+  position: relative;
   height: 30rem;
+  overflow: hidden;
   background-color: #e9d2c0;
   font-size: 20px;
   font-family: 'Cormorant', serif;
@@ -105,7 +120,11 @@ img {
   padding-top: 10px;
 }
 
-.footer-wrapper {
+/* .carousel { */
+/* position: relative; */
+/* } */
+
+.footer-wrap {
   display: inline-flex;
   justify-content: center;
   gap: 40px;

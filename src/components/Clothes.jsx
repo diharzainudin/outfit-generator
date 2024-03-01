@@ -2,7 +2,6 @@ import Button from './Button'
 import HeartButton from './HeartButton'
 
 const Clothes = (props) => {
-  console.log(props)
   return (
     <div>
       <li classname="clothes" id={props.key}>
@@ -15,9 +14,9 @@ const Clothes = (props) => {
         <h3 id="buy-button">
           <Button link={props.link} />
         </h3>
-        <p>
+        <h4>
           <HeartButton /> Add to wishlist
-        </p>
+        </h4>
       </li>
     </div>
   )
