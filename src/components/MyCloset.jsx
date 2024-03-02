@@ -14,6 +14,7 @@ const MyCloset = (props) => {
             <Clothes
               closet={true}
               key={item.id}
+              occasion={item.occasion}
               category={item.category}
               brand={item.brand.name}
               title={item.title}

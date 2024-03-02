@@ -5,21 +5,19 @@ const Wishlist = (props) => {
     <main>
       <h1>My Wishlist</h1>
       <div className="homepage">
-        {props.data.clothes.map((clothes) => (
+        {props.data.clothes.map((item) => (
           <Clothes
-            key={clothes.id}
-            price={clothes.price}
-            brand={clothes.brand.name}
-            title={clothes.title}
-            link={clothes.brand.link}
-            image={clothes.image}
+            key={item.id}
+            price={item.price}
+            brand={item.brand.name}
+            title={item.title}
+            link={item.brand.link}
+            image={item.image}
           />
         ))}
       </div>
     </main>
   )
 }
-
-/* {props.data.clothes.filter.map.((clothes) => ( */
 
 export default Wishlist

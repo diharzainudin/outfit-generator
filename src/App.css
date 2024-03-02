@@ -121,11 +121,22 @@ img {
   backface-visibility: hidden;
 }
 
-.overlay {
+.homepage .overlay {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.closetpage .overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
