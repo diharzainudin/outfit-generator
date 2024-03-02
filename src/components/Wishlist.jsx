@@ -7,8 +7,11 @@ const Wishlist = (props) => {
       <div className="homepage">
         {props.data.clothes.map((item) => (
           <Clothes
+            closet={true}
+            wishlist={true}
             key={item.id}
             price={item.price}
+            occasion={item.occasion}
             brand={item.brand.name}
             title={item.title}
             link={item.brand.link}

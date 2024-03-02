@@ -20,6 +20,10 @@ const Clothes = (props) => {
             <h3 id="buy-button">
               <Button link={props.link} />
             </h3>
+          </>
+        )}
+        {props.wishlist ? null : (
+          <>
             <h4>
               <HeartButton /> Add to wishlist
             </h4>

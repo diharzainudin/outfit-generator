@@ -13,6 +13,7 @@ const MyCloset = (props) => {
           .map((item) => (
             <Clothes
               closet={true}
+              wishlist={true}
               key={item.id}
               occasion={item.occasion}
               category={item.category}
