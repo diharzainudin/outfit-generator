@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = (props) => {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
       <section>
-        <ul class="navlinks">
+        <ul className="navlinks">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -20,7 +20,7 @@ const Navbar = (props) => {
         </ul>
       </section>
       <section>
-        <div class="login-container">
+        <div className="login-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Username" name="username"></input>
             <input type="text" placeholder="Password" name="psw"></input>

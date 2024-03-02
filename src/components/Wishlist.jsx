@@ -4,7 +4,7 @@ const Wishlist = (props) => {
   return (
     <main>
       <h1>My Wishlist</h1>
-      <div class="homepage">
+      <div className="homepage">
         {props.data.clothes.map((clothes) => (
           <Clothes
             key={clothes.id}

@@ -5,12 +5,13 @@ import HeartButton from './HeartButton'
 const Home = (props) => {
   return (
     <main>
-      <div class="title">
+      <div className="title">
         <h1>If you can't stop thinking about it, buy it!</h1>
       </div>
-      <div class="homepage">
+      <div className="homepage">
         {props.data.clothes.map((clothes) => (
           <Clothes
+            closet={false}
             key={clothes.id}
             price={clothes.price}
             occasion={clothes.occasion}

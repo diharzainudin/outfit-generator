@@ -5,29 +5,24 @@ const MyCloset = (props) => {
   return (
     <main>
       <h1>My Closet</h1>
-      <div class="closetpage">
+      <div className="closetpage">
         {props.data.clothes
-          .filter((ownedData) => {
-            if (owned === 'true') {
-              return ownedData
-            }
+          .filter((item) => {
+            return item.owned === true
           })
-          .map((clothes) => (
+          .map((item) => (
             <Clothes
-              key={clothes.id}
-              category={clothes.category}
-              brand={clothes.brand.name}
-              title={clothes.title}
-              image={clothes.image}
+              closet={true}
+              key={item.id}
+              category={item.category}
+              brand={item.brand.name}
+              title={item.title}
+              image={item.image}
             />
           ))}
       </div>
     </main>
   )
-}
-
-{
-  /* {props.data.clothes.filter.map.((clothes) => () */
 }
 
 export default MyCloset
