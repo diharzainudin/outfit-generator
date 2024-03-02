@@ -27,6 +27,65 @@ a {
   /* background-color: pink; */
 }
 
+/*container holding the scrolling title*/
+.title {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*scrolling text*/
+.title h1 {
+  font-size: 2em;
+  font-style: italic;
+  color: #d1b7a1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 40;
+  line-height: 50px;
+  text-align: center;
+  /*starting position of scrolling text*/
+  -moz-transform: translate (100%);
+  -webkit-transform: translate (100%);
+  transform: translateX(100%);
+  /*applying animation to the text by defining the duration and and the iteration count*/
+  -moz-animation: title 25s linear infinite;
+  -webkit-animation: title 25s linear infinite;
+  animation: title 25s linear infinite;
+}
+
+@-moz-keyframes title {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes title {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes title {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
 .closetpage {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
@@ -47,7 +106,7 @@ h4 {
   text-transform: uppercase;
   font-family: 'Cormorant', serif;
   letter-spacing: 1px;
-  color: #e9d2c0;
+  color: #black;
 }
 
 .clothes-container {

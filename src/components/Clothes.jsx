@@ -5,7 +5,7 @@ const Clothes = (props) => {
   return (
     <div class="clothes-container">
       <li classname="clothes" id={props.key}>
-        {/* <h3>Brand: {props.brand}</h3> */}
+        <h3>Occasion: {props.occasion}</h3>
         <p>
           <i>{props.title}</i>
         </p>
